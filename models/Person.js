@@ -9,4 +9,4 @@ const personSchema = mongoose.Schema({
     timeStamps: true
 });
 
-module.exports = mongoose.model('person', personSchema);
+module.exports = mongoose.model('worker', personSchema);
